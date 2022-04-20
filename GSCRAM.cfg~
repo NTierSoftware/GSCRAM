@@ -1,0 +1,67 @@
+#GSCRAM = Groundspace Counter Rocket Artillery & Mortar
+
+[DEFAULT]
+# Deployment = DEV, TEST, PROD
+<<<<<<< HEAD
+Deployment = GROUNDSPACETEST
+=======
+Deployment = DEV2
+>>>>>>> cfd54ba2f4be82e9b33461249c3b73d76509e559
+
+[LOGGING]
+LogRoot = logs\
+
+
+[PROD]
+<<<<<<< HEAD
+GroundspaceServer = TBD
+GroundspacePort = TBD
+CRAMclient = TBD
+=======
+GroundspaceHost = TBD
+GroundspacePort = TBD
+CRAMhost = TBD
+>>>>>>> cfd54ba2f4be82e9b33461249c3b73d76509e559
+CRAMport = TBD
+TCPbufsize = TBD
+MaxNumConns = 2
+
+[DEV]
+<<<<<<< HEAD
+GroundspaceServer = 10.10.100.191
+GroundspacePort = 2301
+CRAMclient = 192.45.12.155
+=======
+# GroundspaceHost = 127.0.0.1  #GroundspaceHost = '' #GroundspaceHost = 'localhost'
+GroundspaceHost = 10.10.100.191
+GroundspacePort = 2301
+CRAMhost = 192.45.12.155
+>>>>>>> cfd54ba2f4be82e9b33461249c3b73d76509e559
+CRAMport = 1329
+TCPbufsize = 1024
+MaxNumConns = 2
+
+
+[DEV2]
+<<<<<<< HEAD
+# GroundspaceServer = 127.0.0.1  #GroundspaceServer = '' #GroundspaceServer = 'localhost'
+GroundspaceServer = 127.0.0.1
+GroundspacePort = 2301
+CRAMclient = 127.0.0.1
+
+[GROUNDSPACETEST]
+GroundspaceServer = 127.0.0.1
+GroundspacePort = 2301
+CRAMclient = 192.45.12.150
+CRAMport = 1329
+=======
+# GroundspaceHost = 127.0.0.1  #GroundspaceHost = '' #GroundspaceHost = 'localhost'
+GroundspaceHost = 127.0.0.1
+GroundspacePort = 2301
+CRAMhost = 127.0.0.1
+CRAMport = 2301
+>>>>>>> cfd54ba2f4be82e9b33461249c3b73d76509e559
+TCPbufsize = 1024
+MaxNumConns = 2
+
+
